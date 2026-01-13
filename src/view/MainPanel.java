@@ -39,7 +39,7 @@ public class MainPanel extends javax.swing.JFrame {
 
         // Clear input fields
         jTextField4.setText("");
-        jTextField5.setText("");
+        jTextField5.setText("");//changed this but still confusion 
         jTextField6.setText("");//yesma change gareko ani milena 
     } catch (NumberFormatException ex) {
         JOptionPane.showMessageDialog(this, "Age must be a number");
